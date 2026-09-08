@@ -1,7 +1,6 @@
 let playerGold = 100;
 
-function openCreate() {
-    let bonusGold = 50;
+function openCreate(bonusGold) {
     playerGold += bonusGold;
 }
 
@@ -10,5 +9,5 @@ function updateGoldDisplay() {
 }
 
 updateGoldDisplay();
-openCreate();
+openCreate(50);
 updateGoldDisplay();
